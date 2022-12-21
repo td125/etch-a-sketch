@@ -33,7 +33,7 @@ h3{
     height: 500px;
     display: grid;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
     border-right: .4px solid black;
     border-top:.4px solid black; ;
     background-color: rgba(225, 226, 226, 0.342);
@@ -62,4 +62,15 @@ h3{
 
 .styles:hover{
     background-color: rgb(30, 30, 177);
+}
+
+
+footer{
+    background-color: rgb(48, 45, 45);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom:0px;
+    width: 100%;
 }

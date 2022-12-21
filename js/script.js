@@ -31,7 +31,7 @@ btnBlack.addEventListener('click', goBlack);
 function goBlack(){
     let divList=document.querySelectorAll('.multi');
     divList.forEach(function(div){
-        div.addEventListener('mousedown', function(){   
+        div.addEventListener('mouseenter', function(){   
             if(div.classList.contains('multi')){
                 div.style.backgroundColor='black';
             }    
